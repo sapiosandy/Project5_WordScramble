@@ -13,6 +13,7 @@
 		AF4085F72BA66A7C0082E35B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF4085F62BA66A7C0082E35B /* Base */; };
 		AF4085F92BA66A7E0082E35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4085F82BA66A7E0082E35B /* Assets.xcassets */; };
 		AF4085FC2BA66A7E0082E35B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF4085FB2BA66A7E0082E35B /* Base */; };
+		AF4086052BA66C430082E35B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF4086032BA66C430082E35B /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF4085F82BA66A7E0082E35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4085FB2BA66A7E0082E35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4085FD2BA66A7E0082E35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4086032BA66C430082E35B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,18 @@
 				AF4085F52BA66A7C0082E35B /* Main.storyboard */,
 				AF4085F82BA66A7E0082E35B /* Assets.xcassets */,
 				AF4085FA2BA66A7E0082E35B /* LaunchScreen.storyboard */,
+				AF4086042BA66C430082E35B /* project5-files */,
 				AF4085FD2BA66A7E0082E35B /* Info.plist */,
 			);
 			path = Project5_WordScramble;
+			sourceTree = "<group>";
+		};
+		AF4086042BA66C430082E35B /* project5-files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4086032BA66C430082E35B /* start.txt */,
+			);
+			path = "project5-files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4085F92BA66A7E0082E35B /* Assets.xcassets in Resources */,
+				AF4086052BA66C430082E35B /* start.txt in Resources */,
 				AF4085FC2BA66A7E0082E35B /* Base in Resources */,
 				AF4085F72BA66A7C0082E35B /* Base in Resources */,
 			);
